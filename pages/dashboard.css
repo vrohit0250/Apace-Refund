@@ -1,0 +1,253 @@
+
+.dashboard_header {
+    box-shadow: 0px 0px 10px #a7a7a7;
+    position: relative;
+    align-items: center;
+    display: flex;
+    height: 4rem;
+    background-color: var(--p-background, var(rgb(255, 255, 255)));
+}
+
+.top_img {
+    margin-left: 25px;
+}
+
+.dashboard_img {
+    width: 124px;
+    display: block;
+}
+
+.top_text {
+    display: flex;
+    align-items: center;
+    margin-left: 8rem;
+    width: 100%;
+}
+
+.top_text_list {
+    width: 80%;
+}
+
+.top_text_list ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.top_text_list ul li {
+    margin: 0 20px;
+}
+
+.top_link {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.top_link:hover {
+    color: rgb(70, 121, 233) !important;
+    font-weight: bold !important;
+    text-decoration: underline;
+}
+
+.top_user {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.top_user span {
+    width: 20%;
+}
+
+.top_icons {
+    width: 60%;
+    height: 60%;
+    background-color: var(--p-decorative-one-surface, #47c1bf);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.dashboard_content {
+    padding: 0px 20rem;
+}
+
+.dashboard_content .top_heading {
+    /* font-size: 1.6rem; */
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    border-bottom: 0.1rem solid var(--p-border-subdued, #dfe3e8);
+}
+
+.dashboard_content .top_heading h1 {
+    /* font-size: 3.5rem; */
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.badge {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 8px;
+    flex-shrink: 0;
+    background-color: #82c853;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #FFF;
+}
+
+.title_large {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 13pt;
+    padding-bottom: 1px;
+    border-bottom: 2px solid grey;
+}
+
+.title_des {
+    font-size: 12pt;
+    color: var(--p-text-subdued, #637381);
+}
+
+.dashboard_step {
+    margin-bottom: 30px;
+    border-bottom: 0.1rem solid var(--p-border-subdued, #dfe3e8);
+}
+
+.dashboard_footer_text {
+    width: 100%;
+    border: var(--p-override-none, 0.1rem solid var(--p-border-subdued, #dfe3e8));
+    border-radius: var(--p-override-none, 999px);
+    height: 80px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+span{
+    font-size: 16px;
+    color: #5a5a5a;
+  }
+
+  hr{
+    border: .5px solid lightgrey;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  h1,h2,h3,h4,h5{
+    color: rgb(42, 36, 36);
+  }
+
+  input[type="radio"]{
+    margin-top: 20px;
+  }
+  
+  .button-save  button {
+    height: 47px;
+    background-color: green;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    padding: 0 48px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+  .button-save {
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+}
+  input[type="text"],[type="number"]{
+    width: 400px;
+    padding: 10px;
+    border: .5px solid lightgrey;
+    border-radius: 4px;
+    color: #888888;
+  }
+  
+
+
+.main{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+.container-box{
+    padding:20px ;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(186, 190, 192);
+    border-radius: 4px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    box-shadow: .5px .5px #888888;
+  }
+  
+.main-container{
+    border: 1px solid rgb(186, 190, 192);
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: .5px .5px #888888;
+  
+  }
+  
+  .right-position{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  input[type="number"]{
+    margin-left: 0;
+  }
+  .right-position input[type="text"], [type=number] {
+    width: 100%;
+    margin: 5px 0 10px;
+    max-width: 90%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main {
+    max-width: 850px;
+    margin: auto;
+}
+.main-container {
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.main-container h4 {
+    flex: 0 40%;
+    max-width: 40%;
+}
+.right-position {
+    flex: 0 60%;
+    max-width: 60%;
+}
+.right-position input[type="text"] {
+    width: 100%;
+    margin: 5px 0 10px;
+    max-width: 90%;
+}
+.set-margin-refund {
+    margin-left: 0;
+}
+
+[type="checkbox"], [type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  margin-right: 10px;
+}
